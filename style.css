@@ -1,0 +1,303 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo jpeg {
+  height: 10px;
+  margin-right: 40px;
+  max-width: 200%;
+  
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #333;
+}
+
+.banner {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.banner h2 {
+  font-size: 28px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.logo img {
+  max-width: 200%;
+}
+
+
+.recipe-page {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.recipe {
+  text-align: center;
+}
+
+.recipe img {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.recipe-details {
+  margin-bottom: 20px;
+}
+
+.ingredients,
+.instructions {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.ingredients li,
+.instructions li {
+  margin-bottom: 10px;
+}
+
+
+
+
+.recipe-page {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.recipe {
+  text-align: center;
+}
+
+.recipe img {
+  max-width: 100%;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.recipe-details {
+  margin-bottom: 20px;
+}
+
+.recipe-details p {
+  font-size: 16px;
+  color: #555;
+}
+
+.ingredients,
+.instructions {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.ingredients li,
+.instructions li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+.ingredients,
+.instructions {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button[type="submit"] {
+  background-color: #f5a623;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #e09420;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.home {
+  background-color: #f5f5f5;
+}
+
+.about-us {
+  background-color: #e0e0e0;
+}
+
+.contact {
+  background-color: #d4edda;
+}
+
+.recipe {
+  background-color: #cce5ff;
+}
+
+
+.navbar {
+  background-color: #cb4a4a;
+  overflow: hidden;
+  position: fixed;
+
+  width: 100%;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #d61c1c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #b03939;
+  color: black;
+}
+
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: rgb(227, 19, 19);
+}
+
+body {
+  background-color: lightblue;
+}
+
+ @import url('https://unpkg.com/swiper/swiper-bundle.min.css');
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    font-size: 24px;
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: #555;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
